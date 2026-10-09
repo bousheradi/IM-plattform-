@@ -1,0 +1,98 @@
+FORTSÄTTNINGSPROMPT - CHATGPT / Information Management Platform (IM Platform)
+
+Jag vill fortsätta projektet Information Management Platform (IM Platform) från den befintliga governance- och evidensbasen. Börja inte om från noll och designa inte om arkitekturen innan du har läst kontinuitetsunderlaget.
+
+Läs i denna ordning:
+1. README_FIRST_IM_PLATFORM_ARCHIVE_HANDOFF_2026-10-07.txt
+2. IM_PLATFORM_CURRENT_WORKING_STATE_2026-10-07.json
+3. IM_PLATFORM_MASTER_PROJECT_DOSSIER_2026-10-07_POST_REV10_DP01_W4.docx eller .md
+4. IM_PLATFORM_ARCHITECTURE_AND_ROADMAP_2026-10-07.md
+5. Original REV10 Authoritative Handoff Record / REV10 Continuity Archive om uppgiften berör exact frozen/promoted authority
+6. Senaste task-specific primary evidence för exakt scope
+
+Auktoritativ kontinuitetsbaseline är fortfarande REV10:
+- REV10 archive SHA-256 = 1D2B3C1D7E16FEF3597F2FE86AE1E9704DA9B23B1BAAAA8B1F56D65C4F3BAFC6
+- REV10 Current State SHA-256 = 6651D314F1DB75C1502433D282B81E94AE5E4AD8CEFC50A7963F4650B7F7C7E2
+- REV10 Handoff Record SHA-256 = 437A13BE4D4A865F910FD1CCEE593085BD002EC37D8AFDE37BD59770668F7252
+
+Viktiga governance-regler:
+- Exakta frozen/promoted bytes + SHA + primär evidence går före narrativ text.
+- Frozen parent är immutable; ändring kräver successor/candidate.
+- Source truth > preview.
+- Correction Approval != Delivery Approval != Organisation Acceptance != AIS != Verified Publish/Current.
+- Fresh source + revalidation krävs före canonical/current publication.
+- Fail closed vid stale/ambiguous/missing/unverifiable authority.
+- Bevara failed attempts och NOT_PROVEN; skapa ny attempt i stället för overwrite.
+- Ett proven scope får inte tyst bevisa ett annat.
+- Kundkrav ska ligga i governed Requirement/Reference data, inte customer-specific code forks.
+
+Senaste arbetsläge 2026-10-07:
+- Phase 3 Integrated Alpha = IN PROGRESS.
+- DP-01 V4 = NOT ACCEPTED / NOT PROMOTED / NOT FINAL-FROZEN.
+- V4 product tree = 1688AD93C13FE7B76C65ACD841C44EF93A4CEA08935CA55083178B0D7B100FDD
+- V4 ZIP SHA-256 = 6ACDACA2C141196758533B1095500CE9D9410594E6D7AFCCFA3326110D91DAC8
+- W0-W3 completed.
+- W4 representative real IFC flow completed at a safe pause: import -> review -> sealed bundle -> bound object validation -> Delivery Approval -> Approval Gate -> persistence -> session delivered -> product integrity 210/210 unchanged -> governed stop.
+- W4 run = RUN-IFC-20261007-133706; review session = REV-20261007-133905-1ae069fe; bound result SHA = a08fa8d2fba7318338700b5c61c10553a8523134415a876bb06a7f33a488e8bc.
+- W4 human decision = APPROVED_WITH_WARNINGS; technical decision = WARNING.
+- Important failed harness attempt: PowerShell JSON/UTF-8 roundtrip corrupted Swedish strings and caused a bound-hash mismatch/409; failed attempt is preserved. Raw UTF-8 path passed.
+- NEXT = W5 Final Integrity / Package Evidence. Do NOT rerun W4.
+- Manifest semantic issue remains open and must be resolved before any DP-01 acceptance/freeze.
+
+Innan kodändring: klassificera task som Core successor, UI/Product Workspace, Reality Viewer, productization/deployment, connector eller non-code governance. Definiera exact scope/claims/acceptance criteria first.
+
+När vi kör Windows/PowerShell: ge EN kort säker logisk block i taget och vänta på min exakta output innan nästa beroende steg.
+
+Om detta handoff-dokument står i konflikt med senare exact primary evidence ska senare primary evidence vinna.
+
+
+========================================================================================
+
+CONTINUATION PROMPT - CLAUDE / project “IM PLATTFORM”
+
+Continue project IM PLATTFORM from the existing governed evidence and continuity state. Do NOT restart the architecture, redesign from memory, or infer authority from filenames, recency, UI state, or narrative summaries. Read the supplied handoff package first.
+
+Read order:
+1. README_FIRST_IM_PLATFORM_ARCHIVE_HANDOFF_2026-10-07.txt
+2. IM_PLATFORM_CURRENT_WORKING_STATE_2026-10-07.json
+3. IM_PLATFORM_MASTER_PROJECT_DOSSIER_2026-10-07_POST_REV10_DP01_W4.docx or .md
+4. IM_PLATFORM_ARCHITECTURE_AND_ROADMAP_2026-10-07.md
+5. Original REV10 Authoritative Handoff Record / REV10 Continuity Archive when the task touches exact frozen/promoted authority
+6. Latest task-specific primary evidence for the exact scope being reviewed or changed
+
+Authoritative continuity baseline remains REV10:
+REV10 archive SHA-256 = 1D2B3C1D7E16FEF3597F2FE86AE1E9704DA9B23B1BAAAA8B1F56D65C4F3BAFC6
+REV10 Current State SHA-256 = 6651D314F1DB75C1502433D282B81E94AE5E4AD8CEFC50A7963F4650B7F7C7E2
+REV10 Handoff Record SHA-256 = 437A13BE4D4A865F910FD1CCEE593085BD002EC37D8AFDE37BD59770668F7252
+
+Governance rules:
+- Exact frozen/promoted bytes + SHA-256 + primary acceptance/freeze evidence outrank narrative.
+- Frozen parents are immutable. Any change requires a new successor/candidate.
+- Source truth > preview.
+- Correction Approval != Delivery Approval != Organisation Acceptance != AIS != Verified Publish/Current.
+- Fresh source + revalidation are required before canonical/current publication.
+- Fail closed on stale, ambiguous, missing, inconsistent or unverifiable authority/evidence.
+- Preserve failed attempts and NOT_PROVEN; never rerun/hot-patch only to manufacture green.
+- One proven authority scope cannot silently prove another.
+- Customer configuration belongs in governed Requirement/Reference data, not customer-specific code forks.
+
+Latest working state (2026-10-07):
+- Phase 3 Integrated Alpha = IN PROGRESS.
+- DP-01 V4 = NOT ACCEPTED / NOT PROMOTED / NOT FINAL-FROZEN.
+- V4 product tree = 1688AD93C13FE7B76C65ACD841C44EF93A4CEA08935CA55083178B0D7B100FDD
+- V4 ZIP SHA-256 = 6ACDACA2C141196758533B1095500CE9D9410594E6D7AFCCFA3326110D91DAC8
+- W0-W3 completed.
+- W4 representative real IFC flow completed at a safe pause: real IFC import -> review -> sealed bundle -> bound object validation -> Delivery Approval -> Approval Gate -> persistence -> delivered session -> product integrity 210/210 unchanged -> governed stop.
+- W4 run = RUN-IFC-20261007-133706
+- W4 review session = REV-20261007-133905-1ae069fe
+- W4 bound result SHA = a08fa8d2fba7318338700b5c61c10553a8523134415a876bb06a7f33a488e8bc
+- Technical decision = WARNING; human approval = APPROVED_WITH_WARNINGS.
+- A failed persistence harness attempt (409 hash mismatch) was traced to PowerShell JSON/UTF-8 roundtrip corruption, not the V4 server. Preserve that failed attempt. The raw UTF-8 path passed.
+- NEXT = W5 Final Integrity / Package Evidence. Do NOT rerun W4.
+- Manifest semantic issue remains open and must be resolved before any DP-01 acceptance/promotion/freeze.
+
+Before implementation, classify the task as Core successor, UI/Product Workspace, Reality Viewer, productization/deployment, connector, or non-code governance. Define exact scope, claims and acceptance criteria before coding. Reviews remain read-only unless separately authorized.
+
+For Windows/PowerShell execution: provide ONE short safe logical block at a time and wait for the exact observed output before the next dependent step.
+
+If this handoff conflicts with later exact primary evidence, the later primary evidence wins.

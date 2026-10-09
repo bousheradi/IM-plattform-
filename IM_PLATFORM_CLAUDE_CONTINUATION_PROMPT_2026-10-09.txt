@@ -1,0 +1,38 @@
+PROJECT CONTINUATION PROMPT - Claude
+Claude project name: IM PLATTFORM
+Canonical product name: Information Management Platform (IM Platform)
+Date baseline: 2026-10-09
+Owner / product lead: Bousher Adi
+
+You are continuing an existing governed Information Management Platform project. Do NOT restart the architecture or redesign frozen scopes.
+
+READ FIRST, IN THIS ORDER:
+1. README_FIRST_IM_PLATFORM_ARCHIVE_HANDOFF_2026-10-09.txt
+2. IM_PLATFORM_CURRENT_WORKING_STATE_2026-10-09.json
+3. IM_PLATFORM_MASTER_PROJECT_DOSSIER_2026-10-09_POST_CI01_FROZEN.docx/pdf/md
+4. IM_PLATFORM_FILES_AND_AUTHORITY_MAP_2026-10-09.md
+5. Exact task-specific primary authority/evidence files.
+
+CURRENT GOVERNED STATE:
+- CI-01 Slice 1 V0.12 SHA-256 2F45BC7E37809802E1BF385755AEAF7215BC05D0C5308A27F0EE31D57A0BE577 is ACCEPTED / PROMOTED / FINAL / FROZEN. It is immutable.
+- CI frozen scope is only ADDED, REMOVED, UNCHANGED, PROPERTY_CHANGED, IDENTITY_UNCERTAIN. Any extension requires a new successor.
+- DP-01 V5 SHA-256 A80523A6ADD0B6B621DD6FD279F91A65FD620616A5E376EE7AB4DA48C211D4BB remains NOT ACCEPTED / NOT PROMOTED / NOT FINAL / NOT FROZEN. Preserve Review85 caveats and NOT_PROVEN.
+- Requirement Library is completed/verified/closed in its proven scope. Do not rebuild it.
+- Immediate next implementation is Product Workspace Walking Skeleton, then AIS/Verified Publish/Current, then Baseline & Change Control.
+- Reality Viewer is a separate track.
+
+NON-NEGOTIABLE RULES:
+- exact bytes + SHA-256 + formal evidence outrank narrative;
+- frozen bytes are immutable;
+- source truth > preview;
+- Correction Approval != Delivery Approval != Organisation Acceptance != AIS != Verified Publish/Current;
+- fresh source + revalidation before canonical/current publication;
+- fail closed; preserve failed attempts and NOT_PROVEN;
+- no silent latest fallback or guessed identity;
+- customer configuration belongs in governed Requirement/Reference data, not product forks.
+
+BEFORE CODING classify the task as: Core successor, UI/Product Workspace, Reality Viewer, deployment/productization, connector, or non-code governance. State exact scope, parent authority, acceptance criteria and prohibited changes.
+
+For Windows/PowerShell: give ONE short safe logical block at a time and wait for my exact output before the next dependent step.
+
+If this prompt conflicts with later exact primary evidence, the later primary evidence wins.

@@ -1,0 +1,15 @@
+REQUIRED EXTERNAL PRIMARY RECORDS - DO NOT RECONSTRUCT
+Date: 2026-10-08
+
+This corrected handoff intentionally does not synthesize missing primary evidence bytes from chat or logs.
+
+Required for fully portable DP-01 closure review:
+- 00_DP01_V5_FORMAL_CLOSURE_ASSESSMENT.txt
+  SHA-256: 7C14CBD22D2B06CBDBAB8A8BBEF1D9BAB3A8F40C09BC31A9C93B6831126CCE45
+- 01_DP01_V5_FINAL_CLOSURE_STATUS_BINDING.json
+  SHA-256: 936E16B8AA5D59E7215B526BC7030A4C6600C7EB8B4FA96FD1DF59281EAD1E2D
+- Delivered Review 83 exact record (not the chat capture)
+- 84_DP01_CANDIDATE_V2_PRE_WINDOWS_REVIEW.md (delivered Review 84 exact record)
+- Original W0-W5 / NT-15 / NT-13 / WIN-F01 / AC-27 / AC-28 Windows evidence tree cited by V5 if the 28/30 accounting is to be independently revalidated.
+
+Rule: if exact raw bytes are unavailable, keep the item external and referenced by exact hash. Never recreate a primary evidence file from narrative text.

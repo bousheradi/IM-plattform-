@@ -1,0 +1,92 @@
+{
+  "authoritative_continuity_baseline": {
+    "archive_sha256": "1D2B3C1D7E16FEF3597F2FE86AE1E9704DA9B23B1BAAAA8B1F56D65C4F3BAFC6",
+    "current_state_sha256": "6651D314F1DB75C1502433D282B81E94AE5E4AD8CEFC50A7963F4650B7F7C7E2",
+    "handoff_record_sha256": "437A13BE4D4A865F910FD1CCEE593085BD002EC37D8AFDE37BD59770668F7252",
+    "name": "REV10",
+    "rule": "later exact primary evidence wins over narrative"
+  },
+  "document_role": "non-authoritative continuity/onboarding synthesis; does not promote/freeze/accept anything",
+  "dp01": {
+    "acceptance": {
+      "fail_count": 0,
+      "not_proven": {
+        "AC-02": "Historical four-checkpoint protected-parent evidence completeness gap; no retroactive reconstruction.",
+        "AC-17": "Windows Python 3.13 FINAL resolver-success test unavailable; current Windows had Python 3.14.5 FINAL only."
+      },
+      "not_proven_count": 2,
+      "pass_count": 28
+    },
+    "approved_contract_sha256": "F4F95A10D1A79365DD6F414C7668D0AB241C7587C738DE7D1B5162B124D46E0B",
+    "closure_records": {
+      "final_closure_status_binding_sha256": "936E16B8AA5D59E7215B526BC7030A4C6600C7EB8B4FA96FD1DF59281EAD1E2D",
+      "formal_closure_assessment_sha256": "7C14CBD22D2B06CBDBAB8A8BBEF1D9BAB3A8F40C09BC31A9C93B6831126CCE45"
+    },
+    "closure_state": "FORMALLY CLOSED AS NOT FULLY PROVEN",
+    "final_candidate": {
+      "name": "IM_PLATFORM_DP01_DEPLOYMENT_SUCCESSOR_CANDIDATE_V5_2026-10-08.zip",
+      "product_file_count": 210,
+      "product_semantic_change_from_v4": false,
+      "product_tree_sha256": "1688AD93C13FE7B76C65ACD841C44EF93A4CEA08935CA55083178B0D7B100FDD",
+      "zip_sha256": "A80523A6ADD0B6B621DD6FD279F91A65FD620616A5E376EE7AB4DA48C211D4BB",
+      "zip_size_bytes": 18818074
+    },
+    "formal_status": "NOT ACCEPTED / NOT PROMOTED / NOT FINAL / NOT FROZEN",
+    "staging_contamination": "V5A2 mutable staging contains four .pyc cache files from inspection; final V5 ZIP is clean and authoritative",
+    "testing_instruction": "STOP further DP-01 testing at V5 closure; no retroactive AC-02 reconstruction; no Python 3.13 install merely to manufacture evidence",
+    "track": "Productization / Deployment",
+    "w4": "completed and consumed; MUST NOT rerun",
+    "w5": "completed; metadata-only V5 successor corrected manifest semantic scope issue",
+    "windows_long_path": "OPEN / OUT OF SCOPE"
+  },
+  "generated_at": "2026-10-08",
+  "never_do": [
+    "Do not modify frozen parents",
+    "Do not rerun W4",
+    "Do not overwrite failed attempts or V5 closure records",
+    "Do not retroactively reconstruct AC-02 checkpoints",
+    "Do not call DP-01 accepted/promoted/final/frozen",
+    "Do not install Python 3.13 solely to manufacture AC-17 closure evidence",
+    "Do not use PowerShell JSON roundtrip for cryptographically bound UTF-8 evidence",
+    "Do not infer authority from filename recency, UI state or narrative"
+  ],
+  "next_priority_order": [
+    "Preserve DP-01 V5 closure and exact hashes; no more V5 testing",
+    "Plan next governed successor only if owner explicitly reopens DP-01 acceptance work",
+    "Change Intelligence V1",
+    "UI/Product Workspace walking skeleton",
+    "AIS / Verified Publish / Current productization continuation",
+    "Reality Viewer remains separate track"
+  ],
+  "owner_product_lead": "Bousher Adi",
+  "phase": "Phase 3 Integrated Alpha - IN PROGRESS",
+  "schema": "IM_PLATFORM_CONTINUITY_HANDOFF_WORKING_STATE_V2",
+  "scoped_authorities": [
+    {
+      "authority_reference_sha256": "3BEB862A7DCA6BCC18D18AFB7B8DD08D093EBA3F615D55A83EE39CE91EDA1A64",
+      "name": "S19 VPC-01",
+      "status": "HISTORICAL FINAL FROZEN semantic Core"
+    },
+    {
+      "authority_reference_sha256": "EFF884F3A616D7D17CD9ADFF9A1B32A366F6D1E4A4C5D77A98BF1B7254863E39",
+      "name": "RLCB V2",
+      "status": "CURRENT / FINAL / FROZEN for binding scope 1-10"
+    },
+    {
+      "authority_reference_sha256": "81E5B4D2C085C5DE76CCB6E9C80DA893EF10F6A34D919421D8F0A2D5ADA223BD",
+      "name": "F59 V4",
+      "status": "PROMOTED / CURRENT / FINAL / FROZEN for runtime-hardening scope"
+    },
+    {
+      "authority_reference_sha256": "5E1938CBEC0EA891431404216C760CF24B02E3207CA3C52B1FBE0457BAF2B64D",
+      "name": "m-66-1",
+      "status": "PROMOTED / CURRENT / FINAL / FROZEN for approval-to-review-session binding"
+    },
+    {
+      "authority_reference_sha256": "32778DBFD69E9E5A27CCDF71CCCA016106CB6EE1987A1B64C1237D92206D2510",
+      "name": "G-B1",
+      "status": "PROMOTED / CURRENT / FINAL / FROZEN / CLOSED for exact reviewer identity scope"
+    }
+  ],
+  "windows_execution_rule": "one short safe logical PowerShell block at a time; wait for exact observed output before next dependent step"
+}

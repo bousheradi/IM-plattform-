@@ -1,0 +1,82 @@
+FORTSÄTTNINGSPROMPT - CHATGPT / Information Management Platform (IM Platform)
+
+Fortsätt projektet från den befintliga governance- och evidensbasen. Börja inte om från noll och designa inte om arkitekturen innan kontinuitetsunderlaget är läst.
+
+Läs i denna ordning:
+1. README_FIRST_IM_PLATFORM_ARCHIVE_HANDOFF_2026-10-08.txt
+2. IM_PLATFORM_CURRENT_WORKING_STATE_2026-10-08.json
+3. IM_PLATFORM_MASTER_PROJECT_DOSSIER_2026-10-08_POST_DP01_V5_CLOSURE.docx eller .md
+4. IM_PLATFORM_ARCHITECTURE_AND_ROADMAP_2026-10-08.md
+5. IM_PLATFORM_PROJECT_HISTORY_INDEX_2026-10-08.md
+6. Original REV10 Handoff/Continuity Archive när exact frozen/promoted authority berörs
+7. Senaste task-specific primary evidence för exakt scope
+
+Auktoritativ kontinuitetsbaseline är fortfarande REV10:
+- Archive SHA-256 = 1D2B3C1D7E16FEF3597F2FE86AE1E9704DA9B23B1BAAAA8B1F56D65C4F3BAFC6
+- Current State SHA-256 = 6651D314F1DB75C1502433D282B81E94AE5E4AD8CEFC50A7963F4650B7F7C7E2
+- Handoff Record SHA-256 = 437A13BE4D4A865F910FD1CCEE593085BD002EC37D8AFDE37BD59770668F7252
+
+Senaste arbetsläge 2026-10-08:
+- Phase 3 Integrated Alpha = IN PROGRESS.
+- DP-01 V5 formal closure = COMPLETE.
+- V5 ZIP SHA-256 = A80523A6ADD0B6B621DD6FD279F91A65FD620616A5E376EE7AB4DA48C211D4BB
+- V5 product tree = 1688AD93C13FE7B76C65ACD841C44EF93A4CEA08935CA55083178B0D7B100FDD
+- Acceptance = 28/30 PASS, AC-02 + AC-17 NOT_PROVEN, 0 FAIL.
+- DP-01 = NOT ACCEPTED / NOT PROMOTED / NOT FINAL / NOT FROZEN.
+- Closure assessment SHA-256 = 7C14CBD22D2B06CBDBAB8A8BBEF1D9BAB3A8F40C09BC31A9C93B6831126CCE45
+- Closure status binding SHA-256 = 936E16B8AA5D59E7215B526BC7030A4C6600C7EB8B4FA96FD1DF59281EAD1E2D
+- Windows long-path residual = OPEN / OUT OF SCOPE.
+- W4 är executed/consumed och får INTE köras om.
+- V5-testing ska stoppas; rekonstruera inte AC-02 retroaktivt och installera inte Python 3.13 enbart för att manufacture evidence.
+
+Viktiga governance-regler:
+- Exact bytes + SHA + primary evidence outrank narrative.
+- Frozen parent är immutable; ändring kräver successor/candidate.
+- Source truth > preview.
+- Correction Approval != Delivery Approval != Organisation Acceptance != AIS != Verified Publish/Current.
+- Fail closed vid stale/ambiguous/missing/unverifiable authority.
+- Failed attempts och NOT_PROVEN bevaras.
+- Ett proven scope får inte tyst bevisa ett annat.
+- PowerShell JSON roundtrip får inte användas för cryptographically bound UTF-8 evidence.
+
+Nästa riktning: behandla DP-01 V5 som stängt governance-record. Nytt arbete ska vara separat auktoriserat; prioritera Change Intelligence V1, Product Workspace walking skeleton och fortsatt AIS/Verified Publish/Current-productisering enligt roadmap.
+
+Windows/PowerShell: ge EN kort säker logisk block i taget och vänta på exakt output innan nästa beroende steg.
+
+Om detta handoff står i konflikt med senare exact primary evidence vinner senare primary evidence.
+
+================================================================================
+
+CONTINUATION PROMPT - CLAUDE / project “IM PLATTFORM”
+
+Continue from the governed evidence and continuity state. Do not redesign from memory or infer authority from filenames/recency/UI state.
+
+Read order:
+1. README_FIRST_IM_PLATFORM_ARCHIVE_HANDOFF_2026-10-08.txt
+2. IM_PLATFORM_CURRENT_WORKING_STATE_2026-10-08.json
+3. IM_PLATFORM_MASTER_PROJECT_DOSSIER_2026-10-08_POST_DP01_V5_CLOSURE.docx or .md
+4. IM_PLATFORM_ARCHITECTURE_AND_ROADMAP_2026-10-08.md
+5. IM_PLATFORM_PROJECT_HISTORY_INDEX_2026-10-08.md
+6. Original REV10 Handoff/Continuity Archive for exact frozen/promoted authority
+7. Latest task-specific primary evidence
+
+Authoritative continuity baseline remains REV10:
+Archive SHA-256 = 1D2B3C1D7E16FEF3597F2FE86AE1E9704DA9B23B1BAAAA8B1F56D65C4F3BAFC6
+Current State SHA-256 = 6651D314F1DB75C1502433D282B81E94AE5E4AD8CEFC50A7963F4650B7F7C7E2
+Handoff Record SHA-256 = 437A13BE4D4A865F910FD1CCEE593085BD002EC37D8AFDE37BD59770668F7252
+
+Latest working state 2026-10-08:
+- Phase 3 Integrated Alpha = IN PROGRESS.
+- DP-01 V5 formal closure is COMPLETE.
+- V5 ZIP SHA-256 = A80523A6ADD0B6B621DD6FD279F91A65FD620616A5E376EE7AB4DA48C211D4BB
+- V5 product tree = 1688AD93C13FE7B76C65ACD841C44EF93A4CEA08935CA55083178B0D7B100FDD
+- Acceptance closure = 28/30 PASS; AC-02 and AC-17 NOT_PROVEN; 0 FAIL.
+- Formal disposition = NOT ACCEPTED / NOT PROMOTED / NOT FINAL / NOT FROZEN.
+- Closure assessment SHA-256 = 7C14CBD22D2B06CBDBAB8A8BBEF1D9BAB3A8F40C09BC31A9C93B6831126CCE45
+- Closure binding SHA-256 = 936E16B8AA5D59E7215B526BC7030A4C6600C7EB8B4FA96FD1DF59281EAD1E2D
+- Windows long-path deployment/runtime residual remains OPEN / OUT OF SCOPE.
+- W4 is executed/consumed and MUST NOT be rerun. Stop V5 testing. Do not retroactively reconstruct AC-02 and do not install Python 3.13 merely to manufacture evidence.
+
+Exact primary evidence outranks this narrative. Frozen parents remain immutable. Keep acceptance, promotion and final/frozen as separate governance transitions.
+
+Next work must be separately governed; roadmap priorities are Change Intelligence V1, Product Workspace walking skeleton, and continued AIS / Verified Publish / Current productization.

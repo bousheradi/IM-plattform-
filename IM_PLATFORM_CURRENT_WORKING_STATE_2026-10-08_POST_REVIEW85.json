@@ -1,0 +1,50 @@
+{
+  "authority": {
+    "continuity_baseline": "REV10",
+    "rev10_archive_sha256": "1D2B3C1D7E16FEF3597F2FE86AE1E9704DA9B23B1BAAAA8B1F56D65C4F3BAFC6",
+    "rev10_current_state_sha256": "6651D314F1DB75C1502433D282B81E94AE5E4AD8CEFC50A7963F4650B7F7C7E2",
+    "rev10_handoff_sha256": "437A13BE4D4A865F910FD1CCEE593085BD002EC37D8AFDE37BD59770668F7252",
+    "rule": "Exact primary bytes + SHA-256 + authoritative designation outrank this synthesis."
+  },
+  "date": "2026-10-08",
+  "dp01": {
+    "candidate": "IM_PLATFORM_DP01_DEPLOYMENT_SUCCESSOR_CANDIDATE_V5_2026-10-08",
+    "closure_accounting": {
+      "builder_assessed_pass": "28/30",
+      "fail_count": 0,
+      "independent_review_status": "Review 85 did not independently verify the complete 28/30 count because the Windows evidence artefacts were not supplied.",
+      "not_proven": [
+        "AC-02",
+        "AC-17"
+      ]
+    },
+    "closure_assessment_sha256": "7C14CBD22D2B06CBDBAB8A8BBEF1D9BAB3A8F40C09BC31A9C93B6831126CCE45",
+    "closure_binding_sha256": "936E16B8AA5D59E7215B526BC7030A4C6600C7EB8B4FA96FD1DF59281EAD1E2D",
+    "formal_disposition": "NOT ACCEPTED / NOT PROMOTED / NOT FINAL / NOT FROZEN",
+    "product_tree_sha256": "1688AD93C13FE7B76C65ACD841C44EF93A4CEA08935CA55083178B0D7B100FDD",
+    "review85_sha256": "5D80718B04B568357C2B9D052DED1053256CE6CF85B795A718EF4C28FADCF4D1",
+    "scope_classification_interpretation": "OPEN: two scope-matrix rows carry core_semantic_change=YES; no conclusion of Core-authority breach is made without the column definition and explicit disposition.",
+    "v5_manifest_metadata_residual": "V5 MANIFEST retains V4 schema/governance_state label; do not repack V5.",
+    "w4": "EXECUTED / CONSUMED - MUST NOT RERUN",
+    "windows_long_path": "OPEN / OUT OF SCOPE",
+    "zip_sha256": "A80523A6ADD0B6B621DD6FD279F91A65FD620616A5E376EE7AB4DA48C211D4BB"
+  },
+  "next_work": [
+    "Use this corrected handoff, not the prior post-closure dossier, as narrative continuity entry point.",
+    "Keep V5 bytes and closure records unchanged.",
+    "If DP-01 is ever reopened, package original Windows evidence and independently review it before counting Windows AC as independently PASS.",
+    "Disposition the scope-matrix core_semantic_change column meaning before any reopened DP-01 acceptance.",
+    "Proceed with separately governed Change Intelligence V1 / Product Workspace / AIS-Verified Publish-Current productization only after handoff correction is accepted."
+  ],
+  "phase": "Phase 3 Integrated Alpha - IN PROGRESS",
+  "review85": {
+    "effect": "Formal NOT ACCEPTED disposition remains sound. Prior handoff is not fit as continuity entry point until corrected.",
+    "majors": [
+      "M-85-1 review chain",
+      "M-85-2 28/30 not independently verifiable",
+      "M-85-3 handoff fitness"
+    ],
+    "verdict": "BLOCKER 0 / MAJOR 3 / MINOR 4"
+  },
+  "schema": "IM_PLATFORM_CURRENT_WORKING_STATE_POST_REVIEW85_V1"
+}

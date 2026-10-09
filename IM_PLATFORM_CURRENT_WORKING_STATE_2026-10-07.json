@@ -1,0 +1,93 @@
+{
+  "schema": "IM_PLATFORM_CONTINUITY_HANDOFF_WORKING_STATE_V1",
+  "generated_at": "2026-10-07",
+  "document_role": "non-authoritative continuity/onboarding synthesis; does not promote/freeze/accept anything",
+  "owner_product_lead": "Bousher Adi",
+  "authoritative_continuity_baseline": {
+    "name": "REV10",
+    "archive_sha256": "1D2B3C1D7E16FEF3597F2FE86AE1E9704DA9B23B1BAAAA8B1F56D65C4F3BAFC6",
+    "current_state_sha256": "6651D314F1DB75C1502433D282B81E94AE5E4AD8CEFC50A7963F4650B7F7C7E2",
+    "handoff_record_sha256": "437A13BE4D4A865F910FD1CCEE593085BD002EC37D8AFDE37BD59770668F7252",
+    "rule": "later exact primary evidence wins over narrative"
+  },
+  "scoped_authorities": [
+    {
+      "name": "S19 VPC-01",
+      "status": "HISTORICAL FINAL FROZEN semantic Core",
+      "authority_reference_sha256": "3BEB862A7DCA6BCC18D18AFB7B8DD08D093EBA3F615D55A83EE39CE91EDA1A64"
+    },
+    {
+      "name": "RLCB V2",
+      "status": "CURRENT / FINAL / FROZEN for binding scope 1-10",
+      "authority_reference_sha256": "EFF884F3A616D7D17CD9ADFF9A1B32A366F6D1E4A4C5D77A98BF1B7254863E39"
+    },
+    {
+      "name": "F59 V4",
+      "status": "PROMOTED / CURRENT / FINAL / FROZEN for runtime-hardening scope",
+      "authority_reference_sha256": "81E5B4D2C085C5DE76CCB6E9C80DA893EF10F6A34D919421D8F0A2D5ADA223BD"
+    },
+    {
+      "name": "m-66-1",
+      "status": "PROMOTED / CURRENT / FINAL / FROZEN for approval-to-review-session binding",
+      "authority_reference_sha256": "5E1938CBEC0EA891431404216C760CF24B02E3207CA3C52B1FBE0457BAF2B64D"
+    },
+    {
+      "name": "G-B1",
+      "status": "PROMOTED / CURRENT / FINAL / FROZEN / CLOSED for exact reviewer identity scope",
+      "authority_reference_sha256": "32778DBFD69E9E5A27CCDF71CCCA016106CB6EE1987A1B64C1237D92206D2510"
+    }
+  ],
+  "phase": "Phase 3 Integrated Alpha - IN PROGRESS",
+  "dp01": {
+    "status": "NOT ACCEPTED / NOT PROMOTED / NOT FINAL-FROZEN",
+    "approved_contract_sha256": "F4F95A10D1A79365DD6F414C7668D0AB241C7587C738DE7D1B5162B124D46E0B",
+    "v4_product_tree": "1688AD93C13FE7B76C65ACD841C44EF93A4CEA08935CA55083178B0D7B100FDD",
+    "v4_zip_sha256": "6ACDACA2C141196758533B1095500CE9D9410594E6D7AFCCFA3326110D91DAC8",
+    "v4_zip_size": 18813764,
+    "w0_w3": "completed",
+    "w4": {
+      "status": "completed at safe pause",
+      "run_id": "RUN-IFC-20261007-133706",
+      "review_session_id": "REV-20261007-133905-1ae069fe",
+      "delivery_id": "DLV-20261007-133905-1ae069fe",
+      "validation_context_sha256": "f00568df945b6eb0945a500582fe4c532d7ff70af803f7110bb5f4f27728aa15",
+      "requirement_library_sha256": "0c872508756d6c662af781650be7f8725add64ba9402eb8b6e67fd3882f33dcb",
+      "reference_library_sha256": "eff6a681a09df2ce50826be7a60baceb75468f492f28c55d6f1f2e2c0d745dc7",
+      "review_bundle_sha256": "3cd8c5b88fa1fa1d75ee4389edad95ad69baf73c92307cc845c0f7cea220a72a",
+      "bound_result_sha256": "a08fa8d2fba7318338700b5c61c10553a8523134415a876bb06a7f33a488e8bc",
+      "technical_decision": "WARNING",
+      "human_approval": "APPROVED_WITH_WARNINGS",
+      "persistence": "HTTP 200 / ok=true / session delivered",
+      "product_integrity": {
+        "pre_files": 210,
+        "post_files": 210,
+        "changed": 0,
+        "removed": 0,
+        "added": 0
+      },
+      "governed_stop": "exit 0; process stopped; server marker removed; lock file may persist with OS lock released",
+      "important_failed_attempt": "PowerShell JSON/UTF-8 roundtrip caused hash mismatch; 409 preserved; raw UTF-8 path passed"
+    },
+    "next": "W5 Final Integrity / Package Evidence",
+    "open_manifest_semantic_issue": "top-level scope_matrix_path semantics must be resolved before acceptance/freeze; do not silently add or overwrite package metadata",
+    "windows_long_path": "OPEN / OUT OF SCOPE"
+  },
+  "next_priority_order": [
+    "DP01 W5 Final Integrity / Package Evidence",
+    "Resolve DP01 manifest semantic issue",
+    "Formal exact-scope DP01 closure/acceptance decision",
+    "Update continuity append-only",
+    "Change Intelligence V1",
+    "UI/Product Workspace walking skeleton"
+  ],
+  "never_do": [
+    "Do not restart/redesign architecture without first reading continuity and exact authority",
+    "Do not modify frozen parents",
+    "Do not infer authority from filenames, newest version, UI state or narrative",
+    "Do not call DP01 accepted/promoted/frozen yet",
+    "Do not rerun W4 just to make evidence cleaner",
+    "Do not overwrite failed attempts",
+    "Do not use PowerShell JSON roundtrip for cryptographically bound UTF-8 evidence"
+  ],
+  "windows_execution_rule": "one short safe logical PowerShell block at a time; wait for exact observed output before next dependent step"
+}
